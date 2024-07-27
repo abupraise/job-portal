@@ -1,7 +1,7 @@
-package io.crud.portal.resource;
+package io.crud.portal.controller;
 
 import io.crud.portal.constant.Constant;
-import io.crud.portal.domain.Applicant;
+import io.crud.portal.entity.Applicant;
 import io.crud.portal.service.ApplicantService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -21,7 +21,7 @@ import static org.springframework.http.MediaType.IMAGE_PNG_VALUE;
 @RestController
 @RequestMapping("/apply")
 @RequiredArgsConstructor
-public class ApplicantResource {
+public class ApplicantController {
     private final ApplicantService applicantService;
 
     @PostMapping

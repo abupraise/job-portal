@@ -1,4 +1,4 @@
-package io.crud.portal.domain;
+package io.crud.portal.entity;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.Column;

@@ -1,8 +1,8 @@
 package io.crud.portal.service;
 
 import io.crud.portal.constant.Constant;
-import io.crud.portal.domain.Applicant;
-import io.crud.portal.repo.ApplicantRepo;
+import io.crud.portal.entity.Applicant;
+import io.crud.portal.repository.ApplicantRepo;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
